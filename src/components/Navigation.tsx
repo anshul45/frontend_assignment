@@ -22,7 +22,7 @@ const Navigation = () => {
       {nav.map((data, index) => (
         <div
           key={index}
-          className={`${data.active ? "text-black" : "text-gray-300"} cursor-pointer`}
+          className={`${data.active ? "text-black" : "text-[#bcb8b1]"} cursor-pointer`}
           onClick={() => handleNavClick(index)}
         >
           {data.link}

@@ -12,10 +12,10 @@ interface StepProps {
 const Step:FC<StepProps> = ({data, onClick}) => {
 
   return (
-    <div className="flex items-center gap-3 cursor-pointer" onClick={onClick}>
-        <div className={`${data.active?"bg-black":"bg-gray-400"} rounded-full px-1 text-white`}>{data.logo}</div>
-        <div className={`${data.active?"text-black":"text-gray-400"} leading-3`}>
-        <div>{data.step}</div>
+    <div className="flex items-center gap-2 cursor-pointer" onClick={onClick}>
+        <div className={`${data.active?"bg-black":"bg-[#bcb8b1]"} rounded-full px-1 text-white`}>{data.logo}</div>
+        <div className={`${data.active?"text-black":"text-[#bcb8b1]"}`}>
+        <div className="text-sm">{data.step}</div>
         <div className="text-xl">{data.data}</div>
         </div>
     </div>

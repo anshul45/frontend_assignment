@@ -5,8 +5,8 @@ import Buttons from "./Buttons"
 
 const Payment = () => {
   return (
-    <div className="flex-[0.5] ml-24 w-full">
-        <div>Payment</div>
+    <div className="flex-[0.54] ml-24 w-full">
+        <div className="text-xl">Payment</div>
         <PaymentMode/>
         <img className="my-10" src={cardImg}/>
         <DataField/>

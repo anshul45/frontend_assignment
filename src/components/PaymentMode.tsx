@@ -26,7 +26,7 @@ const PaymentMode = () => {
   return (
     <div className="flex gap-14 my-5">
         {mode.map((data, index) =>(
-            <div className={`${data.active?"border-b-[1px] border-black text-black" : "text-gray-400"} cursor-pointer`} key={index} onClick={() =>handleClick(index)}>{data.mode}</div>
+            <div className={`${data.active?"border-b-[1px] border-black text-black" : "text-gray-400"} cursor-pointer text-sm`} key={index} onClick={() =>handleClick(index)}>{data.mode}</div>
         ) )}
     </div>
   )
