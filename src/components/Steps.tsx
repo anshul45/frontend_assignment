@@ -18,7 +18,7 @@ const Steps = () => {
   };
 
   return (
-    <div className='pl-40 pr-48 flex justify-between my-16'>
+    <div className='lg:pl-40 lg:pr-48 flex justify-between my-16 md:pl-20 md:pr-24 sm:mx-4'>
       {allSteps.map((data, index) => (
         <Step
           data={data}
