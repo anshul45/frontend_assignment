@@ -23,7 +23,7 @@ const productData=[{
 ]
 
   return (
-    <div className='border-[1px] px-7 py-4 rounded-lg xl:flex-[0.46] xl:mx-0  lg:mx-36 md:mx-20 sm:mx-4'>
+    <div className='border-[1px] px-7 py-4 rounded-lg xl:flex-[0.46] xl:mx-0  lg:mx-36 md:mx-20 sm:mx-2'>
       <h1 className='text-xl'>Summary</h1>
       <div className='flex flex-col gap-5 my-7'>
         {productData.map((data,index) => (

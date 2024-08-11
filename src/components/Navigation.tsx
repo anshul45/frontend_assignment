@@ -18,7 +18,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className="flex md:gap-4 lg:gap-14">
+    <div className="flex md:gap-4 lg:gap-14 sm:hidden md:inline-flex">
       {nav.map((data, index) => (
         <div
           key={index}
